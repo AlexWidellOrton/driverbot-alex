@@ -1,1 +1,2 @@
-jabadahut
+Jag ska göra en bil som drivs av en eldriven motor och som tar information genom kommunicerar med en MQTT broker som sedan kommunicerar med en hemsida och på hemsidan ska det finnas kontroller för att kunna manövrera bilen (driverboten). 
+Det jag skulle vilja göra är en bil som styrs med 
