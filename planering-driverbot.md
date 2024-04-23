@@ -1,15 +1,21 @@
 # Mål: 
-Jag vill ska göra en bil som drivs av en eldriven motor och som tar information genom kommunicerar med en MQTT broker som sedan kommunicerar med en hemsida och på hemsidan ska det finnas kontroller för att kunna manövrera bilen (driverboten). 
+Jag vill ska göra en bil som drivs av en eldriven motor och som tar information genom kommunicerar med en MQTT broker som sedan kommunicerar med en hemsida och på hemsidan ska det finnas kontroller för att kunna manövrera bilen (driverboten) både fram, back, vänster och höger. Bilen ska även kunna svänga samtidigt som den förflyttar sig antingen fram eller bak. 
 # Om jag hinner: 
-Det jag skulle vilja göra är en bil som styrs med fyrhjulsdrift i syfte att få mer fäste om man hade testkört bilen på en hinderbana. 
+Det jag skulle vilja göra är en bil som styrs med fyrhjulsdrift i syfte att få mer fäste om man hade testkört bilen på en hinderbana. Jag skulle även vilja ha en hastighetsmätare på hemsidan där man laddar upp hastigheten som motorn går i. 
 # Hemsidan: 
-Här är en simpel skiss på hur hemsidan kommer se ut på ett ungefär: ![WIN_20240419_15_08_15_Pro](https://github.com/AlexWidellOrton/driverbot-alex/assets/143166201/ee748c32-1bc5-49a1-aa54-55ac84e595fb)
+Här är en simpel skiss på hur hemsidan kommer se ut på ett ungefär: 
+![image](https://github.com/AlexWidellOrton/driverbot-alex/assets/143166201/50283559-0535-4c83-b1dd-5b073873c891)
+
+
+# Psuedokod till hur allt ska kommunicera: 
+![image](https://github.com/AlexWidellOrton/driverbot-alex/assets/143166201/8b8c34f5-6280-4839-8e4c-886d08868988)
+
 
 # Tidsplan: 
 #### 23/4: fortsätta bygga själva bilen och nya legobitar köpts in, om inte så ska jag designa hemsidan ####
 #### 24/4: fortsätta bygga själva bilen och nya legobitar köpts in, om inte så ska jag designa hemsidan ####
 #### 26/4: fortsätta bygga själva bilen och nya legobitar köpts in, om inte så ska jag designa hemsidan ####
-#### 29/4: påbörja att skriva egen kod till servo och motor ####
+#### 29/4: påbörja att skriva egen kod till servo och motor så att bilen ska kunna svänga vänster och höger samt åka fram och bakåt ####
 #### 30/4: fortsätta att skriva egen kod till servo och motor ####
 #### 6/5: fortsätta att skriva egen kod till servo och motor ####
 #### 7/5: Lista ut hur jag ska kunna kommunicera med en broker med kod ####
